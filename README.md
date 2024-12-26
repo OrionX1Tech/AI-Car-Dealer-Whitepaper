@@ -382,3 +382,11 @@ Tyler is a financial strategist with a keen ability to secure funding, manage fi
 - **Discord**: Coming Soon
 
 Stay tuned for official announcements, presale updates, and further development milestones\!  
+
+---
+
+- **Demo Video Link**: [Video](https://drive.google.com/file/d/143M9VLpZM3ecMkk7Dp6b8Iy_l3qE3Xqb/view?usp=drive_link)
+
+---
+
+- **Pitch Deck Link**: [Deck](https://www.canva.com/design/DAGaHAuaNX4/jIrUsk0KX1bzyRxfCtb6HQ/edit?utm_content=DAGaHAuaNX4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
