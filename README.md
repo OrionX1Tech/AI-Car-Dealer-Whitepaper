@@ -1,5 +1,3 @@
-# Whitepaper
-
 ---
 
 # AI Car Dealer (AICD)
@@ -14,44 +12,59 @@
 
 ## Table of Contents
 
-1. **Abstract**  
-2. **Introduction**  
-3. **Market Opportunity & Problem Statement**  
-4. **AICD’s Core Solutions**  
-   1. AI-Driven Dealership Platform  
-   2. AI Peer-to-Peer Marketplace  
-   3. Decentralized Loan Protocol (Over- & Under-Collateralized)  
-5. **Platform Architecture**  
-   1. Technical Stack (Solana, AI Modules)  
-   2. Smart Contracts & Key Components  
-2. **Tokenomics**  
-   1. AICD Token Overview  
-   2. Presale Structure & Vesting  
-   3. Token Distribution  
-   4. Use of Presale Funds  
-2. **Governance & Roadmap**  
-   1. Decentralized Governance (DAO)  
-   2. Development Milestones  
-2. **Team & Advisors**  
-3. **Risks & Disclaimers**  
-4. **Conclusion**  
-5. **References (Optional)**
+1. [Abstract](#1-abstract)  
+2. [Introduction](#2-introduction)  
+3. [Market Opportunity & Problem Statement](#3-market-opportunity--problem-statement)  
+4. [AICD’s Core Solutions](#4-aicds-core-solutions)  
+   1. [Dealership Marketplace & AI](#41-dealership-marketplace--ai)  
+   2. [AI Peer-to-Peer Marketplace](#42-ai-peer-to-peer-marketplace)  
+   3. [Decentralized Loan Protocol](#43-decentralized-loan-protocol)  
+5. [Platform Architecture](#5-platform-architecture)  
+6. [Tokenomics](#6-tokenomics)  
+   1. [AICD Token Overview](#61-aicd-token-overview)  
+   2. [Token Distribution Mechanism (LBP)](#62-token-distribution-mechanism-lbp)  
+   3. [Token Distribution](#63-token-distribution)  
+   4. [Use of Launch Funds](#64-use-of-launch-funds)  
+   5. [Subscription Revenue Sharing](#65-subscription-revenue-sharing)  
+2. [Governance & Roadmap](#7-governance--roadmap)  
+   1. [Decentralized Governance (DAO)](#71-decentralized-governance-dao)  
+   2. [Development Milestones](#72-development-milestones)  
+2. [Team & Advisors](#8-team--advisors)  
+3. [Risks & Disclaimers](#9-risks--disclaimers)  
+4. [Conclusion](#10-conclusion)  
+5. [References (Optional)](#11-references-optional)
 
 ---
 
 ## 1\. Abstract
 
-**AI Car Dealer (AICD)** is a **blockchain-based** ecosystem that unites **Artificial Intelligence (AI)** with **decentralized finance (DeFi)** to revolutionize the automotive sales and lending process. We aim to solve pain points in car buying, selling, and financing—providing dealerships with customized AI platforms and end consumers with transparent, efficient, and secure transactions. Our platform features an AI-driven **Dealership Platform**, a **Peer-to-Peer (P2P) Marketplace**, and a **Decentralized Loan Protocol** that supports both **over-collateralized** and **under-collateralized** loans.
+**AI Car Dealer (AICD)** is a **blockchain-based** ecosystem that converges **Artificial Intelligence (AI)** and **decentralized finance (DeFi)** to redefine the automotive sales and lending process. Our platform addresses the shortcomings in current car buying, selling, and financing models: lack of transparency, costly middlemen, and limited loan options. By offering a **universal dealership marketplace** where dealerships can connect their inventory management systems and subscribe for web3 financing, we reduce barriers to entry and streamline the customer experience.
 
-This whitepaper outlines the **technical architecture**, **tokenomics**, and **governance model** of AICD, demonstrating how we plan to establish a fair, accessible environment for car buyers, sellers, dealerships, and lenders.
+Key platform components include:
+
+- A **Dealership Marketplace & Subscription Model** that provides web3 financing, AI-based insights, and marketing tools.  
+- A **Peer-to-Peer (P2P) Marketplace** for transparent vehicle buying and selling.  
+- A **Decentralized Loan Protocol** that supports both **over-collateralized** and **under-collateralized** loans, funded by a **community-driven** Lending Pool.  
+- A **Liquidity Bootstrapping Pool (LBP)** mechanism for fair token distribution and price discovery.  
+- A **Subscription Revenue-Sharing Model** that directs a portion of premium subscription fees to AICD token stakers, fostering deeper community alignment and platform growth.
+
+This document outlines AICD’s **technical architecture**, **tokenomics**, **governance model**, and the strategic roadmap for achieving widespread adoption in the automotive industry.
 
 ---
 
 ## 2\. Introduction
 
-The automotive industry is undergoing a shift as digital platforms become standard in car sales and financing. However, many platforms still rely on **fragmented processes**, **opaque pricing**, and **limited financing options**. Meanwhile, **blockchain technology** and **AI** are **reshaping** the way industries handle data, trust, and financial services.
+Digital transformation in the automotive industry has accelerated in recent years, yet many platforms remain fragmented and operate with opaque pricing structures. Concurrently, blockchain and AI are rapidly shifting how industries handle trust, data, and financial transactions.
 
-**AICD** stands at the intersection of these trends—bringing together AI’s personalization and automation capabilities with **trustless, transparent** smart contracts on the **Solana blockchain**. By **tokenizing** the ecosystem, we aim to create **aligned incentives** for all participants—dealerships, car buyers, sellers, and lenders.
+**AICD** merges these disruptive technologies to enhance every facet of automotive sales:
+
+- **AI** for predictive analytics and personalized customer experiences.  
+- **Blockchain** for transparent and tamper-proof smart contracts.  
+- **DeFi** for efficient, trustless lending and risk management.
+
+We’ve evolved from a purely bespoke-integration model to a **universal dealership marketplace** approach. Now, dealerships can easily link their inventory managers to our platform and choose **premium subscriptions** for web3-based financing. Through a **subscription** plan, dealers gain access to powerful AI tools, advanced loan products, and marketing support—without extensive custom development.
+
+**AICD** creates aligned incentives for dealerships, buyers, sellers, and lenders by distributing a portion of subscription fees to AICD stakers, ensuring the benefits of platform growth and success flow back to the community.
 
 ---
 
@@ -59,68 +72,98 @@ The automotive industry is undergoing a shift as digital platforms become standa
 
 1. **Inefficient Dealership Operations**  
      
-   - Traditional sales rely heavily on manual processes and inconsistent customer follow-up.  
-   - Financing often involves lengthy bank verifications and cumbersome documentation.
+   - Fragmented data systems and manual processes slow down sales and financing.  
+   - Financing approvals can require lengthy bank verifications and physical paperwork.
 
    
 
 2. **Limited Financing Options**  
      
-   - Many buyers face strict credit checks or slow approvals.  
-   - Dealerships may be unable to offer flexible loans due to limited liquidity or risk management tools.
+   - Traditional lenders often deny buyers with lower credit scores or insufficient collateral.  
+   - Dealerships typically cannot offer flexible terms due to limited liquidity or conservative lending partners.
 
    
 
 3. **Transparency & Trust Issues**  
      
-   - Hidden fees and uncertain vehicle histories undermine consumer confidence.  
-   - Cross-border or out-of-state transactions can be complex and risky.
+   - Buyers face hidden fees, questionable vehicle histories, and lack of clarity in cross-border or out-of-state sales.  
+   - Opaque interest rates and loan terms discourage consumer trust.
 
    
 
 4. **Underutilized Technology**  
      
-   - AI is revolutionizing multiple industries, but automotive sales have been slow to adopt advanced machine learning for personalization and risk assessment.  
-   - Blockchain-based finance (DeFi) remains largely disconnected from the automotive realm.
+   - AI-driven insights remain largely untapped, leaving dealers behind in data-driven industries.  
+   - Blockchain-based finance (DeFi) remains disjointed from the automotive sector despite its potential for secure, efficient lending.
 
-**AICD** addresses these challenges by creating a **comprehensive platform** that integrates **AI** for dealership optimization, a **P2P marketplace** for used car transactions, and a **DeFi-driven lending pool** that simplifies loans and payment processes.
+**AICD** addresses these challenges through a **comprehensive, decentralized** platform that uses AI to enhance pricing and risk assessment, leverages a dealership marketplace for broader participation, and applies DeFi strategies to streamline and democratize financing.
 
 ---
 
 ## 4\. AICD’s Core Solutions
 
-### 4.1. AI-Driven Dealership Platform
+### 4.1. Dealership Marketplace & AI
 
-- **Custom Integrations**: We build AI modules tailored to each dealership’s inventory and customer base.  
-- **AI Sales Agent**: Handles customer inquiries, provides recommendations, and assists in financing.  
-- **Inventory Management**: Dynamic updates to pricing and promotions based on real-time demand signals.
+1. **Universal Marketplace**  
+     
+   - AICD offers a **centralized portal** where dealerships can sync their existing inventory managers (via APIs or data feeds).  
+   - Subscribed dealerships can flag listings as “Web3 Financing Eligible,” enabling direct loan applications within the AICD interface.
+
+   
+
+2. **Subscription Model**  
+     
+   - **Premium Subscriptions** for dealerships unlock advanced tools: AI-driven analytics, lead-generation, marketing enhancements, and DeFi financing options.  
+   - Dealers can upgrade or downgrade tiers based on specific business needs, forging a flexible path to adopt web3 and AI at scale.
+
+   
+
+3. **AI Insights & Automation**  
+     
+   - While not custom-coded for each dealer, AICD’s AI modules still deliver robust features: dynamic pricing, predictive buyer matching, and intelligent inventory management suggestions.  
+   - Dealers control how heavily they rely on automated suggestions versus manual overrides.
 
 ### 4.2. AI Peer-to-Peer Marketplace
 
-- **Buyer-Seller Matching**: AI-based scoring for fair market value and vehicle condition insights.  
-- **Smart Contracts**: Ensure safe escrow and transfer of funds/title on the blockchain.  
-- **Transparency**: On-chain vehicle history and inspection data reduce fraud risks.
+1. **Buyer-Seller Matching**  
+     
+   - Proprietary AI algorithms assign fair market value and vehicle condition scores to facilitate efficient discovery.  
+   - Potential buyers see transparent data, including on-chain maintenance records and inspection logs.
+
+   
+
+2. **Smart Contracts**  
+     
+   - Vehicle sale and title transfer are governed by **escrow-based** smart contracts on the **Solana blockchain**, ensuring secure, automated settlements.  
+   - Reduces risk of fraud or default in P2P transactions.
+
+   
+
+3. **Transparency**  
+     
+   - On-chain records for ownership history, prior accidents, and odometer checks minimize deception.  
+   - In combination with decentralized identity solutions (optional), buyers and sellers can establish higher trust.
 
 ### 4.3. Decentralized Loan Protocol
 
 1. **Over-Collateralized Loans**  
      
-   - Borrowers lock more collateral than the loan amount (e.g., crypto tokens) for **lower default risk**.  
-   - Ideal for crypto holders who prefer not to sell their assets outright.
+   - Borrowers provide collateral (e.g., crypto tokens) worth more than the loan amount, reducing default risks.  
+   - Ideal for crypto holders seeking liquidity without selling assets.
 
    
 
 2. **Under-Collateralized Loans**  
      
-   - AICD’s platform grants these to **reputable dealerships** with strong track records and on-chain/off-chain credit assessments.  
-   - Increases financing accessibility, fosters trust, and expands loan volume.
+   - Trusted, subscribing dealerships with proven track records and strong credit profiles can access under-collateralized financing.  
+   - This approach broadens dealership credit lines, accelerates deals, and meets consumer demand faster.
 
    
 
 3. **Lending Pool**  
      
-   - **Community-driven** pool that funds auto loans, earning yield from borrower interest.  
-   - AI-based risk scoring ensures responsible lending and mitigates defaults.
+   - A **community-driven fund** that finances auto loans, earning interest and fees.  
+   - AI-based risk management models continually assess and optimize credit allocations.
 
 ---
 
@@ -130,34 +173,48 @@ The automotive industry is undergoing a shift as digital platforms become standa
 
 - **Solana Blockchain**  
     
-  - High throughput (TPS) and low transaction fees allow for near real-time transactions.  
+  - High throughput and low fees enable near real-time transactions.  
   - Smart contracts developed using **Rust** and **Anchor** frameworks.
 
 
 - **AI Modules**  
     
-  - Machine learning algorithms for user profiling, vehicle pricing, and loan underwriting.  
-  - Natural language processing (NLP) for AI chatbots and multilingual customer service.
+  - Machine learning models handle user profiling, dynamic pricing, and loan underwriting.  
+  - Natural language processing (NLP) powers AI-driven chatbots for multi-language customer support.
 
-### 5.2. Smart Contracts & Key Components
+### 5.2. Key Components
 
-1. **Lending Smart Contract**  
+1. **Dealer Portal & Inventory Integration**  
      
-   - Manages loan requests, collateral, and repayment schedules.  
-   - Automates interest collection and liquidation if defaults occur.
+   - A plug-and-play interface that imports dealership inventory.  
+   - Subscribed dealers label which vehicles are eligible for web3 financing.
 
    
 
-2. **Marketplace & Escrow**  
+2. **Subscription Management**  
      
-   - Facilitates secure buyer-seller transactions with transparent on-chain auditing.  
-   - Optionally integrates with decentralized identity solutions (e.g., DID) for secure user identification.
+   - Automated subscription billing in stablecoins or AICD tokens.  
+   - Tier-based permissions define the scope of AI tools and financing features available to each dealership.
 
    
 
-3. **Governance Contract** (Future)  
+3. **Lending Smart Contract**  
      
-   - Transition to a DAO, letting AICD holders propose/vote on protocol upgrades, interest rates, or marketing budgets.
+   - Oversees loan requests, collateral management, interest accrual, and repayment.  
+   - Enforces liquidation procedures if borrowers default on over-collateralized loans.
+
+   
+
+4. **Marketplace & Escrow**  
+     
+   - Secures buyer-seller interactions using transparent, on-chain logging of funds and asset transfers.  
+   - Optionally integrates with decentralized identity solutions (e.g., DID) for enhanced reputation scoring.
+
+   
+
+5. **Governance Contract**  
+     
+   - Paves the way toward a DAO structure, allowing token holders to propose or vote on future protocol upgrades, interest rate changes, or ecosystem expansions.
 
 ---
 
@@ -169,63 +226,123 @@ The automotive industry is undergoing a shift as digital platforms become standa
 - **Blockchain**: Solana  
 - **Total Supply**: 1,000,000,000 AICD
 
-#### Utility:
+**Utility**:
 
 1. **Platform Currency**  
      
-   - Pay dealership fees, marketplace listing costs, or service charges with AICD for discounted rates.
+   - Dealerships can pay subscription fees in AICD for discounts.  
+   - Buyers and sellers may earn AICD rewards for loyalty, referrals, or other in-app engagements.
 
    
 
 2. **Staking & Governance**  
      
-   - Stake tokens to support the Lending Pool and earn yield from borrower repayments.  
-   - AICD holders will eventually gain **governance** rights in a community-driven DAO.
+   - Users can stake AICD to support the Lending Pool and receive interest-based rewards.  
+   - AICD stakers will eventually gain **governance** privileges, shaping the future of the platform via a DAO.
+
+   
+
+3. **Subscription Revenue Distribution**  
+     
+   - A portion of premium subscription fees are allocated to **stakers**, providing a direct correlation between platform success and tokenholder rewards.
 
 ---
 
-### 6.2. Presale Structure & Vesting
+### 6.2. Token Distribution Mechanism (LBP)
 
-We will hold a **single-round presale** at a **flat price**, with **no whitelist** or tiered structures.
+AICD utilizes a **Liquidity Bootstrapping Pool (LBP)** for its token launch. An LBP is akin to a Dutch Auction: prices start relatively high and decrease over time, allowing market-driven price discovery.
 
-- **Presale Allocation**: 50% (500,000,000 AICD)  
-- **Presale Price**: $0.004 per AICD  
-- **Soft Cap**: $500,000 | **Hard Cap**: $2,000,000
+1. **Dynamic Pricing**  
+     
+   - The ratio of AICD tokens to collateral (e.g., USDC) rebalances over the pool’s duration, gradually lowering AICD’s price.  
+   - This discourages predatory bots and whales from immediately scooping up cheap tokens.
 
-**Presale Vesting**
+   
 
-- **TGE (Token Generation Event)**: 20% of presale tokens unlocked immediately to participants.  
-- **Remaining 80%**: Linear vesting over **6 months**, unlocking a portion monthly.
+2. **Fair Distribution**  
+     
+   - Community participants can purchase AICD at a price they deem acceptable, encouraging a wider, more **inclusive** ownership base.
 
-This prevents immediate dumping and aligns participants with the platform’s long-term success.
+   
+
+3. **Reduced Upfront Capital**  
+     
+   - The AICD team can begin the LBP with fewer tokens paired against a smaller collateral pool, minimizing the initial capital requirement while enabling robust liquidity.
 
 ---
 
 ### 6.3. Token Distribution
 
+An illustrative breakdown of the **1,000,000,000 AICD** supply:
+
 | Category | % of Total Supply | Tokens | Details |
-| :---- | ----: | ----: | ----: |
-| **Presale** | 50% | 500,000,000 | Sold at $0.004 to fund Lending Pool, liquidity, dev, marketing, and operations. |
-| **Liquidity Pool** | 10% | 100,000,000 | Paired with USDC on a DEX for initial trading; partial lock-up to reduce early volatility. |
-| **Team & Advisors** | 10% | 100,000,000 | 10% at TGE, then linear vesting of remaining 90% over 12–15 months. |
-| **Ecosystem & Rewards** | 20% | 200,000,000 | Staking incentives, referral programs, and community airdrops. |
-| **Development Reserve** | 10% | 100,000,000 | Future expansions, partnerships, advanced AI features, or scaling solutions. |
+| :---- | ----: | ----: | :---- |
+| **LBP Token Allocation** | 40% | 400,000,000 | Sold during the Liquidity Bootstrapping Pool event. |
+| **Liquidity Pool** | 10% | 100,000,000 | Paired with USDC on DEXs post-LBP; partially locked to mitigate volatility. |
+| **Team & Advisors** | 10% | 100,000,000 | 10% unlocked at TGE, remaining 90% vested linearly over 12–15 months. |
+| **Ecosystem & Rewards** | 20% | 200,000,000 | Staking incentives, referral programs, and user airdrops. |
+| **Development Reserve** | 10% | 100,000,000 | Future expansions, advanced AI features, or scaling solutions. |
+| **Treasury/DAO** | 10% | 100,000,000 | Governance-managed funds after the DAO launch (marketing, ecosystem grants, strategic partnerships). |
+
+*(These percentages can be fine-tuned based on community input and project goals.)*
 
 ---
 
-### 6.4. Use of Presale Funds
+### 6.4. Use of Launch Funds
 
-| Category | % of Funds | At $500k (Soft Cap) | At $2M (Hard Cap) |
-| :---- | ----: | ----: | ----: |
-| **Lending Pool** | 60% | $300k | $1.2M |
-| **Liquidity Pool** | 15% | $75k | $300k |
-| **Development** | 15% | $75k | $300k |
-| **Marketing & Ops** | 10% | $50k | $200k |
+Funds raised from the **LBP** (and any supplementary raises) will be allocated as follows:
 
-1. **Lending Pool**: Seed capital for both over- and under-collateralized loans.  
-2. **Liquidity Pool**: Stable liquidity on decentralized exchanges.  
-3. **Development**: AI models, devnet to mainnet progression, audits, and platform upkeep.  
-4. **Marketing & Ops**: Community building, partnerships, day-to-day expenses.
+| Category | Approx. % of Funds | Use Cases |
+| :---- | ----: | :---- |
+| **Lending Pool** | 50–60% | Seed capital for over- and under-collateralized auto loans. |
+| **Liquidity Support** | 15% | Bolster liquidity on decentralized exchanges. |
+| **Development** | 15% | AI algorithms, protocol audits, mainnet integrations, platform maintenance, and upgrades. |
+| **Marketing & Ops** | 10–20% | Community building, dealer outreach, daily operations, and user adoption campaigns. |
+
+1. **Lending Pool**  
+     
+   - Primary funding source for automotive loans, fostering immediate utility.
+
+   
+
+2. **Liquidity Support**  
+     
+   - Ensures adequate liquidity for stable trading post-LBP.
+
+   
+
+3. **Development**  
+     
+   - Resources for building robust AI modules, improving user experience, and ensuring security.
+
+   
+
+4. **Marketing & Ops**  
+     
+   - Encourages platform growth through partnerships, events, and ongoing operational needs.
+
+---
+
+### 6.5. Subscription Revenue Sharing
+
+**Premium Subscriptions** from dealerships form an additional revenue stream. A portion of these fees flow to stakers:
+
+1. **Fee Collection**  
+     
+   - Dealers pay subscription fees in stablecoins or AICD for expanded AI capabilities, web3 financing, and marketing tools.
+
+   
+
+2. **Reward Pool Allocation**  
+     
+   - A fraction of collected fees is directed to a **Reward Pool**.  
+   - Staked AICD holders periodically claim these rewards, often distributed in stablecoins or converted into AICD.
+
+   
+
+3. **Incentivizing Long-Term Participation**  
+     
+   - This structure ties platform success to tokenholders, boosting **demand** for AICD and enhancing the annual percentage yield (APY) for stakers.
 
 ---
 
@@ -233,99 +350,74 @@ This prevents immediate dumping and aligns participants with the platform’s lo
 
 ### 7.1. Decentralized Governance (DAO)
 
-After the platform matures, AICD will migrate governance to a **DAO**. Token holders will be able to:
+After the platform gains critical mass, **AICD** will transition governance to a **DAO**. Stakers and tokenholders can:
 
-- Propose and vote on major updates or policy changes (e.g., new dealership onboarding, interest rate adjustments).  
-- Decide on budget allocations from the Development Reserve.  
-- Initiate or vote on expansions into new regions or automotive verticals.
+- Propose and vote on major changes (e.g., dealership subscription pricing, interest rate models, protocol enhancements).  
+- Allocate funds from the **Treasury** or **Development Reserve**.  
+- Influence expansions into new geographic or vertical markets.
 
 ### 7.2. Development Milestones
 
 1. **Q4 2024**  
      
    - Submit AI Car Dealer to Solana AI Agent Hackathon.  
-   - Public Presale at $0.004 per AICD.  
-   - Community-Building & Marketing Launch.
+   - Community Building & Marketing Kickoff for LBP awareness.  
+   - Finalize Subscription & Marketplace Architecture.
 
    
 
 2. **Q1 – Q2 2025**  
      
    - Smart Contract Audits & Final Tokenomics.  
-   - Devnet Testing for Lending Protocol.  
-   - Achieve Soft Cap ($500K) or Hard Cap ($2M).  
-   - Token Generation Event & Liquidity Pool Setup.
+   - **LBP Launch** on a Balancer-like or aggregator platform for fair price discovery.  
+   - Token Generation Event & Post-LBP Liquidity Setup.
 
    
 
 3. **Q3 – Q4 2025**  
      
-   - Onboard Pilot Dealerships for Under-Collateralized Loans.  
+   - **Dealership Marketplace** Beta Launch, enabling subscription sign-ups.  
+   - Onboard pilot dealerships for under-collateralized loans.  
    - AI Dealer & P2P Marketplace Beta Release.
 
    
 
 4. **Q1 2026**  
      
-   - Mainnet Launch of Lending Pool & Initial Deals.  
-   - DAO Governance Introduction.  
-   - Expansion to Additional Dealerships & OEMs.  
-   - Enhanced AI Features & Global Market Expansion.
+   - Mainnet Launch of Lending Protocol & Marketplace.  
+   - **Subscription Revenue Sharing** to stakers goes live.  
+   - DAO Governance Rollout & Additional Regional Expansions.  
+   - Enhanced AI Features for advanced vehicle recommendations and financing analytics.
 
 ---
 
-## **8\. Team & Advisors**
+## 8\. Team & Advisors
 
 **Core Team**
 
-**Kenton Cooley** (CEO/Founder):  
-A visionary leader and skilled engineer with a track record of building innovative platforms such as **Pixtr** and **GLVSS**. Kenton has developed products for companies like Realtor.com and WeightWatchers. He specializes in mobile engineering and scalable system architecture.
-
-**Responsibilities:**
-
-- Define and oversee Orion's strategic vision.  
-- Lead technical development and ensure product excellence.  
-- Drive relationships with investors and partners to support growth.
-
-**Josh Pichardo** (CNO/Web Engineer/Founder):  
-Josh is a seasoned web engineer with expertise in creating innovative digital experiences. His contributions to **GLVSS** and the **Pixtr web app** highlight his ability to develop scalable platforms while fostering strategic relationships.
-
-**Responsibilities:**
-
-- Oversee web development, ensuring user-centered designs.  
-- Cultivate strategic partnerships and maintain industry connections.  
-- Represent Orion at events to expand the company's influence.
-
-**Manny Ramirez** (COO/Founder):  
-With expertise in operational strategy and business growth, Manny focuses on ensuring seamless internal operations and scaling the company's processes.
-
-**Responsibilities:**
-
-- Manage daily operations and optimize team productivity.  
-- Collaborate on strategic planning and execution.  
-- Develop efficient systems for budgeting and resource allocation.
-
-**Marcus Andrews** (CCO/Co-founder):  
-Marcus is adept at fostering vibrant communities and user engagement. He leverages his experience to build strong connections between the Orion team and its users, ensuring lasting loyalty and advocacy.
-
-**Responsibilities:**
-
-- Lead community engagement strategies across all platforms.  
-- Organize and manage social campaigns, AMAs, and events.  
-- Act as a bridge between the development team and community feedback.
-
-**Tyler McIntosh** (CFSO/Co-founder):  
-Tyler is a financial strategist with a keen ability to secure funding, manage financial operations, and plan for sustainable growth. His focus is on ensuring Orion's financial health and strategic alignment.
-
-**Responsibilities:**
-
-- Lead financial planning, including fundraising and resource management.  
-- Oversee the execution of strategies that align with long-term goals.  
-- Manage financial compliance and reporting to maintain trust and transparency.
+- **Kenton Cooley (CEO/Founder)**  
+  Visionary engineer with a background in building innovative platforms (Pixtr, GLVSS) for companies such as Realtor.com and WeightWatchers.  
+  **Responsibilities**: Overall strategic vision, technical leadership, and investor relations.  
+    
+- **Josh Pichardo (CNO/Web Engineer/Founder)**  
+  Experienced web developer with expertise in scalable platform solutions, known for contributions to GLVSS and Pixtr.  
+  **Responsibilities**: Web development oversight, partnership cultivation, and public representation.  
+    
+- **Manny Ramirez (COO/Founder)**  
+  Operational strategist focusing on internal process optimization, team productivity, and resource allocation.  
+  **Responsibilities**: Day-to-day operations, strategic execution, and budgeting systems.  
+    
+- **Marcus Andrews (CCO/Co-founder)**  
+  Specialist in community engagement and user advocacy, building robust brand-user relationships.  
+  **Responsibilities**: Communication strategies, social campaigns, and bridging user feedback with product improvements.  
+    
+- **Tyler McIntosh (CFSO/Co-founder)**  
+  Financial strategist adept at securing funding, managing financial operations, and planning for sustainable scale.  
+  **Responsibilities**: Fundraising, financial planning, and compliance reporting.
 
 **Advisory Board**
 
-- Professionals from the automotive, AI, and DeFi sectors providing guidance on regulatory compliance, business strategy, and technology innovation.
+- Experts from automotive, AI, and DeFi sectors guiding regulatory compliance, business strategy, and technological innovation.
 
 ---
 
@@ -333,44 +425,55 @@ Tyler is a financial strategist with a keen ability to secure funding, manage fi
 
 1. **Market Volatility**  
      
-   - The crypto market is unpredictable. AICD’s price may fluctuate significantly.
+   - Crypto markets can be highly volatile; AICD’s price may fluctuate significantly.
 
    
 
 2. **Regulatory Uncertainty**  
      
-   - Auto financing and token sales each have evolving regulations. We will remain agile in compliance efforts.
+   - Regulations around auto financing and token offerings are evolving. AICD will adapt to remain compliant.
 
    
 
 3. **Default Risk**  
      
-   - Under-collateralized loans introduce higher risk. AI-based risk scoring is used, but unforeseen defaults may occur.
+   - Under-collateralized loans inherently carry higher risk. Even with AI-based risk assessment, unexpected defaults may occur.
 
    
 
 4. **Smart Contract Vulnerabilities**  
      
-   - Despite audits, no system is 100% free of bugs or exploits.
+   - Despite audits, no smart contract is entirely immune to exploits or bugs.
 
    
 
 5. **No Investment Advice**  
      
-   - This document is not investment advice. Conduct your own research and consult experts before participating.
+   - This document does not constitute investment advice. Participants should conduct their own due diligence.
 
 ---
 
 ## 10\. Conclusion
 
-**AI Car Dealer (AICD)** blends cutting-edge **AI** and **Web3** to streamline automotive sales and financing. By leveraging the **Solana blockchain** for secure, transparent transactions and advanced AI systems for risk assessment and user experience, we tackle **longstanding inefficiencies** in the automotive industry:
+**AI Car Dealer (AICD)** unites the power of **AI**, **blockchain**, and **DeFi** to reshape the automotive industry by offering:
 
-- **Presale Vesting**: Encourages long-term commitment and discourages speculation-driven dumping.  
-- **Robust Lending Pool**: Supports both over- and under-collateralized car loans.  
-- **Custom AI Modules**: Tailored solutions for each dealership and a seamless P2P marketplace.  
-- **Growth & Governance**: A roadmap that culminates in DAO-based management, ensuring community-driven evolution.
+- A **Dealership Marketplace** where dealerships can quickly integrate inventory data and subscribe to premium, web3-enabled financing features.  
+- A **P2P Marketplace** underpinned by transparent, on-chain vehicle data.  
+- A **Decentralized Loan Protocol** facilitating both over-collateralized and under-collateralized loans, backed by a community-driven lending pool.  
+- A **Subscription Revenue-Sharing** model that distributes part of the recurring fees to AICD stakers, incentivizing strong community participation and ensuring mutual growth.  
+- A **Liquidity Bootstrapping Pool (LBP)** approach for fair and transparent token distribution, mitigating manipulative practices.
 
-**Join us** on our journey to redefine **car buying, selling, and financing**, powered by **AI and blockchain**—for a more transparent, efficient, and globally accessible automotive market.
+By merging these elements, **AICD** creates a streamlined environment for car buyers, sellers, dealerships, and lenders—paving the way for a globally accessible, **efficient**, and **trustworthy** automotive ecosystem. Join us in driving the next generation of car buying, selling, and financing.
+
+---
+
+## 11\. References (Optional)
+
+*(Cite any relevant technical papers, articles, or open-source frameworks here.)*
+
+- [Solana Documentation](https://docs.solana.com/)  
+- [Balancer Liquidity Bootstrapping Pool Concepts](https://docs.balancer.fi/)  
+- [AI & ML Research for Automotive](https://arxiv.org/) (Various relevant AI papers)
 
 ---
 
@@ -381,7 +484,7 @@ Tyler is a financial strategist with a keen ability to secure funding, manage fi
 - **Telegram**: Coming Soon  
 - **Discord**: Coming Soon
 
-Stay tuned for official announcements, presale updates, and further development milestones\!  
+Stay connected for official announcements, LBP details, and further development milestones\! 
 
 ---
 
