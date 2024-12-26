@@ -1,5 +1,3 @@
----
-
 # AI Car Dealer (AICD)
 
 ## Whitepaper
