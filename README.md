@@ -4,6 +4,7 @@
 
 **Version**: 1.0  
 **Date**: December 26, 2024
+
 **Authors**: Kenton Cooley, Josh Pichardo, Marcus Andrews
 
 ---
