@@ -1,5 +1,3 @@
----
-
 # AI Car Dealer (AICAR)
 
 ## Whitepaper
