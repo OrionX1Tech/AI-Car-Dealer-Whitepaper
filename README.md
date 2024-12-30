@@ -4,7 +4,7 @@
 
 ## Whitepaper
 
-**Version**: 1.3  
+**Version**: 1.0  
 **Date**: December 26, 2024  
 **Authors**: Kenton Cooley, Josh Pichardo, Marcus Andrews
 
