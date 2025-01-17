@@ -188,9 +188,9 @@ AICAR solves these issues by combining **AI** for analytics and **blockchain** f
 | **Team**           | 10%        | 100,000,000    | 10% unlocked at TGE, remaining 90% vested linearly over 12–15 months.                               |
 | **Advisors**       | 5%         | 50,000,000     | 10% unlocked at TGE, remaining 90% vested linearly over 12–15 months.                               |
 | **Ecosystem**      | 5%         | 50,000,000     | Incentives, referral bonuses, subscription rebates, and community building.                         |
-| **Rewards**        | 5%         | 50,000,000     | Airdrop Campaign                                                                                   |
+| **Rewards**        | 2.5%         | 25,000,000     | Airdrop Campaign                                                                                   |
 | **Development Reserve** | 15%   | 150,000,000    | Future expansions, advanced AI modules, ecosystem scaling.                                          |
-| **Treasury/DAO**   | 15%        | 150,000,000    | Governance-managed funds for marketing, and grants.                                                 |
+| **Treasury/DAO**   | 17.5%        | 175,000,000    | Governance-managed funds for marketing, and grants.                                                 |
 | **Partnerships**   | 10%        | 100,000,000    | Strategic partnerships                                                                             |
 
 **Totals**: **1,000,000,000 AICAR**
