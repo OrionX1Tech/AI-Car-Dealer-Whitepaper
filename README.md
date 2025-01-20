@@ -204,8 +204,8 @@ Below is the revised **token distribution** reflecting the public presale on Pin
 2. **Price**:  
    - **Presale (Raise) Price**: $0.01  
    - **Listing (Launch) Price**: $0.012  
-3. **Soft Cap**: 500 SOL (equivalent to roughly \$200,000, subject to SOL pricing)  
-4. **Hard Cap**: 2000 SOL (equivalent to roughly \$800,000–\$1,000,000, subject to SOL pricing)  
+3. **Soft Cap**: 500 SOL (equivalent to roughly \$125,000, subject to SOL pricing)  
+4. **Hard Cap**: 2000 SOL (equivalent to roughly \$500,000, subject to SOL pricing)  
 5. **Allocation for Public Presale**: 10% of total supply (100,000,000 AICAR)
 
 The PinkSale presale offers a **flat rate** for contributors, meaning the price does **not** decline or adjust dynamically. Upon reaching the soft cap, the project will be considered successfully funded, with a maximum raise at the hard cap level.
