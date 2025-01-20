@@ -2,8 +2,8 @@
 
 ## Whitepaper
 
-**Version**: 2.0  
-**Date**: December 26, 2024  
+**Version**: 2.1  
+**Date**: January 19, 2025  
 **Authors**: Kenton Cooley, Josh Pichardo, Marcus Andrews
 
 ---
@@ -23,8 +23,8 @@
 6. [Tokenomics](#6-tokenomics)  
    - 6.1. AICAR Token Overview  
    - 6.2. Final Distribution & Allocation  
-   - 6.3. **LBP Fundraising Details**  
-   - 6.4. **Use of Funds & Liquidity**  
+   - 6.3. Public Presale (PinkSale) Details  
+   - 6.4. Use of Funds & Liquidity  
    - 6.5. Staking & Subscription Revenue Sharing  
 7. [Governance & Roadmap](#7-governance--roadmap)  
    - 7.1. Decentralized Governance (DAO)  
@@ -36,7 +36,7 @@
 
 ---
 
-## 1\. Abstract
+## 1. Abstract
 
 **AI Car Dealer (AICAR)** is a **blockchain-based** ecosystem that converges **Artificial Intelligence (AI)** and **decentralized finance (DeFi)** to redefine the automotive sales and lending process. By offering:
 
@@ -49,7 +49,7 @@ AICAR aims to deliver **transparency**, **efficiency**, and **equitable access**
 
 ---
 
-## 2\. Introduction
+## 2. Introduction
 
 ### Technology & Automotive Convergence
 
@@ -68,7 +68,7 @@ Meanwhile, **AI** is reshaping data-driven decision-making, and **DeFi** is unlo
 
 ---
 
-## 3\. Market Opportunity & Problem Statement
+## 3. Market Opportunity & Problem Statement
 
 1. **Inefficient Dealership Operations**  
    - Dealerships often use manual workflows and disjointed software stacks.
@@ -86,7 +86,7 @@ AICAR solves these issues by combining **AI** for analytics and **blockchain** f
 
 ---
 
-## 4\. AICAR’s Core Solutions
+## 4. AICAR’s Core Solutions
 
 ### 4.1. Dealership Marketplace & Subscription Model
 
@@ -130,7 +130,7 @@ AICAR solves these issues by combining **AI** for analytics and **blockchain** f
 
 ---
 
-## 5\. Platform Architecture
+## 5. Platform Architecture
 
 ### 5.1. Technical Stack
 
@@ -163,7 +163,7 @@ AICAR solves these issues by combining **AI** for analytics and **blockchain** f
 
 ---
 
-## 6\. Tokenomics
+## 6. Tokenomics
 
 ### 6.1. AICAR Token Overview
 
@@ -181,49 +181,51 @@ AICAR solves these issues by combining **AI** for analytics and **blockchain** f
 
 ### 6.2. Final Distribution & Allocation
 
-| Category           | % of Total | Tokens         | Details                                                                                            |
-| :----------------- | ---------: | -------------: | :------------------------------------------------------------------------------------------------- |
-| **Presale**        | 10%        | 100,000,000    | (LBP Fundraising)                                                                                  |
-| **Liquidity Pool** | 25%        | 250,000,000    | Provides market liquidity; portion locked to stabilize price.                                       |
-| **Team**           | 10%        | 100,000,000    | 10% unlocked at TGE, remaining 90% vested linearly over 12–15 months.                               |
-| **Advisors**       | 5%         | 50,000,000     | 10% unlocked at TGE, remaining 90% vested linearly over 12–15 months.                               |
-| **Ecosystem**      | 5%         | 50,000,000     | Incentives, referral bonuses, subscription rebates, and community building.                         |
-| **Rewards**        | 2.5%       | 25,000,000     | Airdrop Campaign                                                                                   |
-| **Development Reserve** | 15%   | 150,000,000    | Future expansions, advanced AI modules, ecosystem scaling.                                          |
-| **Treasury/DAO**   | 17.5%      | 175,000,000    | Governance-managed funds for marketing, and grants.                                                 |
-| **Partnerships**   | 10%        | 100,000,000    | Strategic partnerships                                                                             |
+Below is the revised **token distribution** reflecting the public presale on PinkSale and new allocation categories:
+
+| Category                                                    | % of Total | Tokens         | Details                                                                                                   |
+| :---------------------------------------------------------- | ---------: | -------------: | :-------------------------------------------------------------------------------------------------------- |
+| **DEX Liquidity, CEX Listings, & Lending Pool**             | 20%        | 200,000,000    | Reserved for DEX liquidity, future CEX listings, and seeding the decentralized lending pool.              |
+| **Private Presale**                                         | 5%         | 50,000,000     | Early strategic backers.                                                                                  |
+| **Public Presale**                                          | 10%        | 100,000,000    | Sold on PinkSale at the flat raise price of $0.01.                                                         |
+| **Team**                                                    | 15%        | 150,000,000    | 10% unlocked at TGE, remaining 90% vested linearly over 12–15 months.                                      |
+| **Airdrop**                                                 | 5%         | 50,000,000     | Community airdrops and promotional campaigns.                                                             |
+| **Community Incentives**                                    | 10%        | 100,000,000    | Rewards for staking, referrals, and platform engagement.                                                  |
+| **Advisors & Partnerships**                                 | 10%        | 100,000,000    | Strategic partnerships, advisory support, subject to vesting schedules.                                   |
+| **Treasury & Development Reserve**                          | 25%        | 250,000,000    | Long-term protocol growth, future AI expansion, and DAO-managed grants.                                   |
 
 **Totals**: **1,000,000,000 AICAR**
 
 ---
 
-### 6.3. LBP Fundraising Details
+### 6.3. Public Presale (PinkSale) Details
 
-1. **Token Allocation**: 100,000,000 AICAR (10% total supply).  
-2. **Mechanism**: **Liquidity Bootstrapping Protocol (LBP)**, whereby the **starting price is $0.0525** and it can **decline to as low as $0.005** if there is limited or no demand.  
-3. **Currency**: SOL or USDC, contributed into the LBP.  
-4. **Hard Cap**: We aim for a total raise of up to **$1,000,000** (in SOL/USDC value), though final amounts will be set by LBP dynamics.  
+1. **Presale Platform**: **PinkSale**  
+2. **Price**:  
+   - **Presale (Raise) Price**: $0.01  
+   - **Listing (Launch) Price**: $0.012  
+3. **Soft Cap**: 500 SOL (equivalent to roughly \$200,000, subject to SOL pricing)  
+4. **Hard Cap**: 2000 SOL (equivalent to roughly \$800,000–\$1,000,000, subject to SOL pricing)  
+5. **Allocation for Public Presale**: 10% of total supply (100,000,000 AICAR)
 
-Because the LBP discovers price via supply-and-demand, our **desired listing price** will ultimately reflect community valuation. We anticipate a possible final range between **$0.06** on the high end and **$0.01** on the lower end, though the market will determine the actual equilibrium.  
-
-#### Use of LBP Proceeds (Target $1,000,000)
-
-| Category               | % of Funds | Amount (USD) | Primary Use Cases                                                                                                                      |
-| :--------------------- | ---------: | -----------: | :------------------------------------------------------------------------------------------------------------------------------------- |
-| **Liquidity Pool (LP)** | 40%        | $400,000     | Ensures a **deep liquidity** buffer on DEXs to maintain a strong listing price and reduce price swings.                                |
-| **Marketing & Community** | 27.5%   | $275,000     | Funds influencer campaigns, conference booths, social media ads, referral programs, and brand building.                                 |
-| **Development**        | 22.5%      | $225,000     | Covers AI enhancements, security audits, front-/back-end builds, and feature rollouts for the platform.                                 |
-| **Ops & Legal**        | 10%        | $100,000     | Addresses day-to-day operational overhead, legal fees, compliance needs, and unforeseen costs.                                          |
-
-**Total**: 100% \= **$1,000,000**  
+The PinkSale presale offers a **flat rate** for contributors, meaning the price does **not** decline or adjust dynamically. Upon reaching the soft cap, the project will be considered successfully funded, with a maximum raise at the hard cap level.
 
 ---
 
 ### 6.4. Use of Funds & Liquidity
 
-Our dedicated **Liquidity Pool** allocation (40% of LBP proceeds, or about $400k if fully raised) will pair with the necessary AICAR tokens to facilitate a **healthy trading environment**. The tokens originally earmarked for liquidity (25% of total supply) remain available for controlled release, ensuring market stability.  
+From the proceeds raised on PinkSale (up to the 2000 SOL hard cap), funds will be allocated as follows:
 
-Because the final listing price is discovered by the community in the LBP, we foresee a listing price landing somewhere between **$0.06** and **$0.01**, depending on demand.
+| Category                   | % of Funds | Range (SOL)        | Primary Use Cases                                                                        |
+| :------------------------- | ---------: | :----------------- | :--------------------------------------------------------------------------------------- |
+| **Initial LP**            | 40%        | 200–800 SOL        | Ensures **deep liquidity** for AICAR on decentralized exchanges to reduce price swings. |
+| **Marketing**             | 25%        | 125–500 SOL        | Funds influencer campaigns, conference booths, social media ads, and brand building.     |
+| **Development**           | 25%        | 125–500 SOL        | Covers AI enhancements, security audits, and front-/back-end feature rollouts.           |
+| **Ops & Legal**           | 10%        | 50–200 SOL         | Addresses operational overhead, legal fees, compliance needs, and unforeseen costs.      |
+
+**Total**: 100%  
+
+Depending on final participation, the actual SOL amounts for each category will scale within the ranges above. Unused reserves will remain in the treasury for future growth.
 
 ---
 
@@ -239,26 +241,26 @@ Because the final listing price is discovered by the community in the LBP, we fo
 
 ---
 
-## 7\. Governance & Roadmap
+## 7. Governance & Roadmap
 
 ### 7.1. Decentralized Governance (DAO)
 
 As the platform matures, AICAR evolves into a DAO:
 
 - **Voting & Proposals**: Tokenholders can propose changes (loan parameters, subscription pricing) and vote on them.  
-- **Treasury Allocations**: The 20% DAO/Treasury can fund expansions, marketing pushes, or strategic grants via on-chain governance.  
+- **Treasury Allocations**: The DAO/Treasury can fund expansions, marketing pushes, or strategic grants via on-chain governance.  
 - **Protocol Upgrades**: AI enhancements or new dealership features can be implemented with community consensus.
 
 ### 7.2. Development Milestones
 
 1. **Q4 2024**  
    - Submit AI Car Dealer to Solana AI Agent Hackathon.  
-   - Community Building & Marketing Kickoff for LBP.
+   - Community Building & Marketing Kickoff for Presale.
 
 2. **Q1 – Q2 2025**  
-   - **LBP Launch**  
+   - **Public Presale on PinkSale**  
    - Smart Contract Audits & Final Tokenomics.  
-   - Token Generation Event & Post LBP Liquidity Setup.
+   - Token Generation Event & Post-Presale Liquidity Setup.
 
 3. **Q3 – Q4 2025**  
    - **Dealership Marketplace** Beta Launch, enabling subscription sign-ups.  
@@ -273,7 +275,7 @@ As the platform matures, AICAR evolves into a DAO:
 
 ---
 
-## 8\. Team & Advisors
+## 8. Team & Advisors
 
 ### Core Team
 
@@ -328,7 +330,7 @@ Professionals from the automotive, AI, and DeFi sectors providing guidance on re
 
 ---
 
-## 9\. Risks & Disclaimers
+## 9. Risks & Disclaimers
 
 1. **Market Volatility**  
    - Cryptocurrency markets can be unpredictable, affecting the AICAR token price.
@@ -347,21 +349,21 @@ Professionals from the automotive, AI, and DeFi sectors providing guidance on re
 
 ---
 
-## 10\. Conclusion
+## 10. Conclusion
 
 **AI Car Dealer (AICAR)** merges **AI** and **Web3** to streamline automotive sales, financing, and community engagement:
 
 - **Dealership Marketplace**: Subscription-driven web3 financing and AI insights for dealerships.  
 - **P2P Marketplace**: Transparent, AI-assisted vehicle trades backed by on-chain escrow.  
 - **DeFi Lending**: Over-collateralized and under-collateralized loans underwritten by a robust community lending pool.  
-- **Tokenomics**: A 10% allocation for LBP fundraising, advanced liquidity planning, and meaningful staking/subscription rewards align all stakeholders.  
+- **Tokenomics**: A public PinkSale presale at $0.01, leading to a launch price of $0.012, plus a robust allocation for liquidity, marketing, and long-term growth.  
 - **Governance**: Roadmap leading to a DAO ensures a thriving, community-driven ecosystem.
 
 By coupling data-driven insights with decentralized lending, **AICAR** envisions a future where automotive commerce is **transparent**, **accessible**, and **sustainably governed**.
 
 ---
 
-## 11\. References (Optional)
+## 11. References (Optional)
 
 - [Solana Documentation](https://docs.solana.com/)  
 - [Anchor Framework for Rust](https://github.com/project-serum/anchor)  
@@ -377,4 +379,4 @@ By coupling data-driven insights with decentralized lending, **AICAR** envisions
 - **Twitter (X)**: [@OrionX1Tech](https://twitter.com/OrionX1Tech)  
 - **Discord**: Coming Soon
 
-Stay updated for LBP announcements, development progress, and the future rollout of **DAO governance**!
+Stay updated for presale announcements, development progress, and the future rollout of **DAO governance**!
