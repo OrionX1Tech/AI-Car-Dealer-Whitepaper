@@ -187,7 +187,7 @@ Below is the revised **token distribution** reflecting the public presale on Pin
 | :---------------------------------------------------------- | ---------: | -------------: | :-------------------------------------------------------------------------------------------------------- |
 | **DEX Liquidity, CEX Listings, & Lending Pool**             | 20%        | 200,000,000    | Reserved for DEX liquidity, future CEX listings, and seeding the decentralized lending pool.              |
 | **Private Presale**                                         | 5%         | 50,000,000     | Early strategic backers.                                                                                  |
-| **Public Presale**                                          | 10%        | 100,000,000    | Sold on PinkSale at the flat raise price of $0.01.                                                         |
+| **Public Presale**                                          | 10%        | 100,000,000    | Sold on PinkSale at the flat raise rate of 50,000 $AICAR per SOL.                                                         |
 | **Team**                                                    | 15%        | 150,000,000    | 10% unlocked at TGE, remaining 90% vested linearly over 12–15 months.                                      |
 | **Airdrop**                                                 | 5%         | 50,000,000     | Community airdrops and promotional campaigns.                                                             |
 | **Community Incentives**                                    | 10%        | 100,000,000    | Rewards for staking, referrals, and platform engagement.                                                  |
@@ -202,8 +202,8 @@ Below is the revised **token distribution** reflecting the public presale on Pin
 
 1. **Presale Platform**: **PinkSale**  
 2. **Price**:  
-   - **Presale (Raise) Price**: $0.01  
-   - **Listing (Launch) Price**: $0.012  
+   - **Presale (Raise) Rate**: 50,000 $AICAR per SOL  
+   - **Listing (Launch) Rate**: 40,000 $AICAR per SOL  
 3. **Soft Cap**: 500 SOL (equivalent to roughly \$125,000, subject to SOL pricing)  
 4. **Hard Cap**: 2000 SOL (equivalent to roughly \$500,000, subject to SOL pricing)  
 5. **Allocation for Public Presale**: 10% of total supply (100,000,000 AICAR)
@@ -356,7 +356,7 @@ Professionals from the automotive, AI, and DeFi sectors providing guidance on re
 - **Dealership Marketplace**: Subscription-driven web3 financing and AI insights for dealerships.  
 - **P2P Marketplace**: Transparent, AI-assisted vehicle trades backed by on-chain escrow.  
 - **DeFi Lending**: Over-collateralized and under-collateralized loans underwritten by a robust community lending pool.  
-- **Tokenomics**: A public PinkSale presale at $0.01, leading to a launch price of $0.012, plus a robust allocation for liquidity, marketing, and long-term growth.  
+- **Tokenomics**: A public PinkSale presale rate at 50,000 $AICAR per SOL, leading to a launch rate of 40,000 $AICAR per SOL, plus a robust allocation for liquidity, marketing, and long-term growth.  
 - **Governance**: Roadmap leading to a DAO ensures a thriving, community-driven ecosystem.
 
 By coupling data-driven insights with decentralized lending, **AICAR** envisions a future where automotive commerce is **transparent**, **accessible**, and **sustainably governed**.
